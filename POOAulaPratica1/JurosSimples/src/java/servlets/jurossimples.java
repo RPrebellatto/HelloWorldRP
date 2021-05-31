@@ -40,7 +40,7 @@ public class jurossimples extends HttpServlet {
             out.println("<title>Resultado</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<a href='/JurosSimples/index.html'>Voltar</a>");
+            out.println("<a href='/Taktugem JurosSimples/index.html'>Voltar</a>");
             out.println("<h1>Resultado do cálculo de juros simples </h1>");
             try{
                 double pv = Double.parseDouble(request.getParameter("pv"));
